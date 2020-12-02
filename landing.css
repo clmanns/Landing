@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  align-content: flex-start;
+  list-style-type: none;
+  overflow: hidden
+}
+
+li {
+  float: right;
+}
+
+li a, .button {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 20 50 10;
+  text-decoration: none;
+}
+
+Li a:hover, .dropdown: hover .button{
+  background-color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdwn-content {
+  dsiplay: none;
+  position: absolute;
+}
+
+.dropdwn-content a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
