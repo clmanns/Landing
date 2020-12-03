@@ -21,16 +21,16 @@ li a, .button {
   text-decoration: none;
 }
 
-Li a:hover, .dropdown: hover .button{
+Li a:hover, .dropdown:hover .button{
   background-color: white;
 }
 
-li.dropdown {
+li .dropdown {
   display: inline-block;
 }
 
 .dropdwn-content {
-  dsiplay: none;
+  display: block;
   position: absolute;
 }
 
