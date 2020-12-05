@@ -47,6 +47,9 @@ li.contain{
 
 .things a:hover{background-color:gold;}
 .contain:hover .things{ display:block;}
-img{
-  float:right;
+body{
+  background-image: url("squid-2.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: absolute;
 }
