@@ -33,11 +33,11 @@ li.contain{
 .things{
   display:none;
   position:absolute;
-  background-color:silver;
+  background-color:lightslategray;
   min-width:45px;
 }
 .things a{
-  color:yellow;
+  color:goldenrod;
   padding:10px 40px;
   text-decoration: none;
   display:block;
